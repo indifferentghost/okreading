@@ -4,5 +4,6 @@
 	],
 	"deno.enable": true,
 	"editor.inlayHints.enabled": "off",
-	"editor.tabSize": 2
+	"editor.tabSize": 2,
+	"editor.defaultFormatter": "denoland.vscode-deno"
 }

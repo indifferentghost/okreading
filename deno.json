@@ -1,7 +1,7 @@
 {
 	"tasks": {
-		"start": "deno run --allow-net main.tsx",
-		"dev": "deno run --allow-net --watch main.tsx",
+		"start": "deno run --allow-net --allow-read main.tsx",
+		"dev": "deno run --allow-net --allow-read --watch main.tsx",
 		"check": "deno fmt --check && deno lint && deno check --unstable **/*.ts && deno check --unstable **/*.tsx",
 		"test": "deno test --unstable"
 	},
@@ -32,8 +32,11 @@
 		"jsxImportSource": "hono/jsx"
 	},
 	"imports": {
-		"hono/jsx/jsx-runtime": "https://deno.land/x/hono@v4.0.5/jsx/jsx-runtime.ts",
 		"hono/": "https://deno.land/x/hono@v4.0.5/",
-		"valibot/": "https://deno.land/x/valibot@v0.29.0/"
+		"hono/jsx/jsx-runtime": "https://deno.land/x/hono@v4.0.5/jsx/jsx-runtime.ts",
+		"valibot/": "https://deno.land/x/valibot@v0.29.0/",
+		"@hono/valibot-validator": "https://esm.sh/@hono/valibot-validator@0.2.2/",
+		"dotenv/": "https://deno.land/std@0.218.2/dotenv/",
+		"metapatcher": "npm:metapatcher@4.0.5"
 	}
 }
