@@ -2,7 +2,7 @@
 	"tasks": {
 		"start": "deno run --allow-net --allow-read main.tsx",
 		"dev": "deno run --allow-net --allow-read --unstable-hmr main.tsx",
-		"check": "deno fmt --check && deno lint && deno check --unstable **/*.ts && deno check --unstable **/*.tsx",
+		"check": "deno fmt --check && deno lint && deno check **/*.ts && deno check **/*.tsx",
 		"test": "deno test --unstable"
 	},
 	"fmt": {

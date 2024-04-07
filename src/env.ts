@@ -43,7 +43,7 @@ const parsedEnv = safeParse(EnvSchema, await load());
 if (!parsedEnv.success) {
 	console.error(flatten<typeof EnvSchema>(parsedEnv.issues));
 	/** @todo 06-03-2024 TD do better */
-	throw new Error('failed parse');
+	throw new Error("failed parse");
 }
 
 export const { output: env } = parsedEnv;

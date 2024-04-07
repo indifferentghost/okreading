@@ -1,8 +1,5 @@
 import { Hono } from "hono/mod.ts";
-import {
-	logger,
-	serveStatic,
-} from "hono/middleware.ts";
+import { logger, serveStatic } from "hono/middleware.ts";
 import { HomeLayout } from "./src/HomeLayout.tsx";
 import { CaretUp } from "./src/icons/caret-up.tsx";
 import { layoutMiddleware } from "./src/middleware.tsx";

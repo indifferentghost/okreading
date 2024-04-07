@@ -85,7 +85,6 @@ const getLayout = (options?: Partial<Meta>) => {
 	const optionsWithDefaults = Object.assign(defaultMeta, options);
 	const meta = generateMeta(optionsWithDefaults);
 
-	/** @todo 14-03-2024 TD https://github.com/muratgozel/metapatcher/issues/10  */
 	return ({ children }: PropsWithChildren) =>
 		html`<!DOCTYPE html>${(
 			/** @todo 05-03-2024 TD direction and intl */
