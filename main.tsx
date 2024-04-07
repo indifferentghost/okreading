@@ -2,11 +2,11 @@ import { Hono } from "hono/mod.ts";
 import {
 	logger,
 	serveStatic,
-	type ServeStaticOptions,
 } from "hono/middleware.ts";
 import { HomeLayout } from "./src/HomeLayout.tsx";
 import { CaretUp } from "./src/icons/caret-up.tsx";
 import { layoutMiddleware } from "./src/middleware.tsx";
+import type { ServeStaticOptions } from "hono/middleware/serve-static/index.ts";
 
 const app = new Hono();
 

@@ -32,8 +32,8 @@
 		"jsxImportSource": "hono/jsx"
 	},
 	"imports": {
-		"hono/": "https://deno.land/x/hono@v4.0.5/",
-		"hono/jsx/jsx-runtime": "https://deno.land/x/hono@v4.0.5/jsx/jsx-runtime.ts",
+		"hono/": "https://deno.land/x/hono@v4.2.2/",
+		"hono/jsx/jsx-runtime": "https://deno.land/x/hono@v4.2.2/jsx/jsx-runtime.ts",
 		"valibot/": "https://deno.land/x/valibot@v0.29.0/",
 		"@hono/valibot-validator": "https://esm.sh/@hono/valibot-validator@0.2.2/",
 		"dotenv/": "https://deno.land/std@0.218.2/dotenv/",
